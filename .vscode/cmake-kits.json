@@ -1,0 +1,40 @@
+[
+    {
+        "name": "axcf2152_2019.0",
+        "toolchainFile": "/opt/pxc/axcf2152_2019.0/toolchain.cmake",
+        "cmakeSettings": {
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+            "CMAKE_STAGING_PREFIX": "${workspaceFolder}/build/${buildKit}/out",
+            "CMAKE_PREFIX_PATH": [
+                "${workspaceFolder}/build/${buildKit}/out",
+                "${workspaceFolder}/build/${buildKit}/external/Ne10",
+                "${workspaceFolder}/external/Ne10-1.2.1"
+            ],
+            "ARP_TOOLCHAIN_ROOT": "/opt/pxc/axcf2152_2019.0",
+            "ARP_DEVICE": "AXCF2152",
+            "ARP_DEVICE_VERSION": "2019.0 LTS (19.0.0.17548  )"
+        },
+        "preferredGenerator": {
+            "name": "Ninja"
+        }
+    },
+    {
+        "name": "axcf2152_2019.3-beta+bundle1",
+        "toolchainFile": "/opt/pxc/axcf2152_2019.3-beta+bundle1/toolchain.cmake",
+        "cmakeSettings": {
+            "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+            "CMAKE_STAGING_PREFIX": "${workspaceFolder}/build/${buildKit}/out",
+            "CMAKE_PREFIX_PATH": [
+                "${workspaceFolder}/build/${buildKit}/out",
+                "${workspaceFolder}/build/${buildKit}/external/Ne10",
+                "${workspaceFolder}/external/Ne10-1.2.1"
+            ],
+            "ARP_TOOLCHAIN_ROOT": "/opt/pxc/axcf2152_2019.3-beta+bundle1",
+            "ARP_DEVICE": "AXCF2152",
+            "ARP_DEVICE_VERSION": "2019.3 (19.3.0.18161 beta)"
+        },
+        "preferredGenerator": {
+            "name": "Ninja"
+        }
+    }
+]

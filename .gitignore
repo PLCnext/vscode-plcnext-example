@@ -1,0 +1,9 @@
+# The files from folder .vscode are included for demo purpose.
+# Exclude them in a real world application.
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/cmake-kits.json
+!.vscode/settings.json
+!.vscode/tasks.json
+build/
+

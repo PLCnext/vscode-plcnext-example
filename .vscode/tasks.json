@@ -1,0 +1,49 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Engineer Library 2019.0 LTS",
+            "type": "shell",
+            "command": "plcncli",
+            "args": [
+                "generate",
+                "library",
+                "-p",
+                "${workspaceFolder}/libs/MyLibrary",
+                "-m",
+                "${workspaceFolder}/build/axcf2152_2019.0/libs/MyLibrary/intermediate/config",
+                "-o",
+                "${workspaceFolder}/build/axcf2152_2019.0/out/lib",
+                "-t",
+                "AXCF2152,19.0.0.17548,${workspaceFolder}/build/axcf2152_2019.0/out/lib/libMyLibrary.so"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/libs/MyLibrary"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Engineer Library 2019.3 beta bundle 1",
+            "type": "shell",
+            "command": "plcncli",
+            "args": [
+                "generate",
+                "library",
+                "-p",
+                "${workspaceFolder}/libs/MyLibrary",
+                "-m",
+                "${workspaceFolder}/build/axcf2152_2019.3-beta+bundle1/libs/MyLibrary/intermediate/config",
+                "-o",
+                "${workspaceFolder}/build/axcf2152_2019.3-beta+bundle1/out/lib",
+                "-t",
+                "AXCF2152,19.3.0.18161,${workspaceFolder}/build/axcf2152_2019.3-beta+bundle1/out/lib/libMyLibrary.so"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/libs/MyLibrary"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

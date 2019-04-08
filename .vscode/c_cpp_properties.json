@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "axcf2152_2019.0",
+            "compilerPath": "/opt/pxc/axcf2152_2019.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/axcf2152_2019.0/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/axcf2152_2019.0/compile_commands.json",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/axcf2152_2019.0.vc.db"
+            }
+        },
+        {
+            "name": "axcf2152_2019.3-beta+bundle1",
+            "compilerPath": "/opt/pxc/axcf2152_2019.3-beta+bundle1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-pxc-linux-gnueabi/arm-pxc-linux-gnueabi-g++ --sysroot=/opt/pxc/axcf2152_2019.3-beta+bundle1/sysroots/cortexa9t2hf-neon-pxc-linux-gnueabi -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/axcf2152_2019.3-beta+bundle1/compile_commands.json",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/axcf2152_2019.3-beta+bundle1.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}
