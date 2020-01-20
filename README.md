@@ -18,7 +18,7 @@ This example was made with the following software:
 * Visual Studio Code version 1.32.3  
 * Visual Studio Code Extensions:
     * CMake (twxs.cmake) version 0.0.17
-    * CMake Tools (vector-of-bool.cmake-tools) version 1.1.3
+    * CMake Tools (ms-vscode.cmake-tools) version 1.2.3
     * C/C++ (ms-vscode.cpptools) version 0.22.1
 * PLCnext SDK 2019.0 LTS for AXC F 2152
 * PLCnext SDK 2019.3 beta bundle 1 for AXC F 2152
@@ -27,7 +27,7 @@ This example was made with the following software:
 
 Install the listed extension into Visual Studio Code
 
-* CMake Tools (vector-of-bool.cmake-tools)
+* CMake Tools (ms-vscode.cmake-tools)
 * CMake (twxs.cmake)
 * C/C++ (ms-vscode.cpptools)
 
