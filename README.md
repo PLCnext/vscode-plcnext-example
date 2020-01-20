@@ -335,7 +335,7 @@ mark_as_advanced(
 
 The jsoncpp library comes with support for a CMake config package that can easily be consumed from the install location. The library has just to be installed into a local directory. By including the installation directory into the `CMAKE_PREFIX_PATH` variable CMake can find this package. To learn more about CMake packages read the [CMake packages documentation](https://cmake.org/cmake/help/latest/manual/cmake-packages.7.html#cmake-packages-7).
 
-The install location for this workspace is always in the build folder of the specific CMake Tools build kit. Take a look at the build kit file `./vscode/build-kits.cmake`. The `CMAKE_STAGING_PREFIX` variable is set to the `out` folder in the build directory.
+The install location for this workspace is always in the build folder of the specific CMake Tools build kit. Take a look at the build kit file `./vscode/cmake-kits.json`. The `CMAKE_STAGING_PREFIX` variable is set to the `out` folder in the build directory.
 
 ```json
 {
